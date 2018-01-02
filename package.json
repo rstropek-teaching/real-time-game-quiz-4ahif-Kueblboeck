@@ -4,7 +4,8 @@
   "description": "This exercise should be a funny way of preparing for our semester exam. It will bring together most of the topics we covered in the first semester. Work on it seriously and you can be sure that you will master the upcoming exam.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "browser-sync start --server --files '*.html,*.js,'*.css,*.ts' | tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/rstropek-teaching/real-time-game-quiz-4ahif-Kueblboeck/issues"
   },
-  "homepage": "https://github.com/rstropek-teaching/real-time-game-quiz-4ahif-Kueblboeck#readme"
+  "homepage": "https://github.com/rstropek-teaching/real-time-game-quiz-4ahif-Kueblboeck#readme",
+  "dependencies": {
+    "phaser": "^2.6.2"
+  },
+  "devDependencies": {
+    "phaser-ce": "^2.9.4",
+    "typescript": "^2.6.2"
+  }
 }

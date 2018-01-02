@@ -1,5 +1,13 @@
 # *Websockets Real-Time Mobile Game* Quiz
 
+#To Do
+
+* Setting up Server
+* Setting up Client 
+* Allow only 2 players to play at once
+* Setting up game-level
+* Setting up Database
+* Store something in Database
 
 ## Introduction
 
