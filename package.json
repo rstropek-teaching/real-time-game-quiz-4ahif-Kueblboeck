@@ -17,9 +17,7 @@
     "url": "https://github.com/rstropek-teaching/real-time-game-quiz-4ahif-Kueblboeck/issues"
   },
   "homepage": "https://github.com/rstropek-teaching/real-time-game-quiz-4ahif-Kueblboeck#readme",
-  "dependencies": {
-    "phaser": "^2.6.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "phaser-ce": "^2.9.4",
     "typescript": "^2.6.2"
