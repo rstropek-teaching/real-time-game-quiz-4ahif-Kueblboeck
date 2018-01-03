@@ -1,6 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var game_1 = require("./game");
+//import { SimpleGame } from './game';
 function newGame() {
-    var game = new game_1.SimpleGame;
+    var game = new SimpleGame();
 }
