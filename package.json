@@ -5,7 +5,8 @@
   "main": "script.js",
   "scripts": {
     "build": "tsc",
-    "start": "browser-sync start --server --files '*.html,*.js,'*.css,*.ts' | tsc --watch"
+    "watch": "browser-sync start --server --files '*.html,*.js,'*.css,*.ts' | tsc --watch",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,15 @@
     "url": "https://github.com/rstropek-teaching/real-time-game-quiz-4ahif-Kueblboeck/issues"
   },
   "homepage": "https://github.com/rstropek-teaching/real-time-game-quiz-4ahif-Kueblboeck#readme",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
   "devDependencies": {
+    "@types/express": "^4.11.0",
+    "@types/jquery": "^3.2.17",
+    "@types/socket.io": "^1.4.31",
+    "jquery": "^3.2.1",
     "phaser-ce": "^2.9.4",
     "typescript": "^2.6.2"
   }
