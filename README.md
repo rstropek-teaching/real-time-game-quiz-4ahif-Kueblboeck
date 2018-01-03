@@ -2,14 +2,14 @@
 
 ## To Do
 
-* Setting up Server
+* Setting up Server ✔
 * Setting up Client 
 * Allow only 2 players to play at once
 * Setting up game-level ✔
 * Setting up Database
 * Store something in Database
 * add Player ✔
-* able to move player through level with collision detection and physics
+* able to move player through level with collision detection and physics ✔
 * make Player a stick figure with all animations, moving right,left,jumping,hitting
 
 
